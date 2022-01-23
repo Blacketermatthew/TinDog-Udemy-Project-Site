@@ -1,0 +1,187 @@
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title section  */
+
+#title {
+  background-color: #ff4c68;
+  /* height: 550px; */
+}
+
+.title-row h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+.title-row {
+  margin-top: 75px;
+}
+
+.download {
+  margin: 5% 3% 5% 0;
+  /* width: 125px; */
+}
+.dogphone-container {
+  position: relative;
+}
+
+.dogphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Essentially a conditional statement for CSS */
+/* If the width of the screen/device falls below 1000px, the dog phone goes upright and aligns itself below the title */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .dogphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.feature-row i {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.feature-row i:hover {
+  color: #ff4c68;
+}
+
+.feature-row h3 {
+  font-weight: 700;
+}
+
+.feature-row p {
+  color: #8f8f8f;
+}
+
+/* Testimonial section  */
+
+#testimonials {
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section  */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-weight: bold;
+}
+
+.card-header h3,
+.card-body h2 {
+  font-weight: bold;
+}
+
+#pricing .row {
+  margin-top: 3%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 6%;
+}
+
+/* #cta button.download {
+  height: 40px;
+  width: 135px;
+} */
+
+#cta h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: white;
+  padding: 7% 12%;
+  text-align: center;
+}
+
+.footer-row i {
+  padding: 1% 1%;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
